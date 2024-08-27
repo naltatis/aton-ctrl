@@ -1,0 +1,101 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Seite-1" id="r4uHJYsSXIhAgnMbuVG2">
+    <mxGraphModel dx="796" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eMC0vuxPGA62B3FA_7C9-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;ATON CTRL&lt;div&gt;(Raspberry)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="380" y="220" width="110" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="eMC0vuxPGA62B3FA_7C9-3" value="&lt;div&gt;evcc&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="220" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="eMC0vuxPGA62B3FA_7C9-4" value="TA Heizstab 3000W stufenlos" style="shape=mxgraph.pid.heat_exchangers.u_shaped_tubes_heat_exchanger;html=1;pointerEvents=1;align=center;verticalLabelPosition=bottom;verticalAlign=top;dashed=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="480" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eMC0vuxPGA62B3FA_7C9-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.019;exitY=0.317;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;exitPerimeter=0;" edge="1" parent="1" source="eMC0vuxPGA62B3FA_7C9-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="270" as="sourcePoint" />
+            <mxPoint x="380" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMC0vuxPGA62B3FA_7C9-7" value="&amp;nbsp;Regelung&amp;nbsp;&lt;div&gt;&amp;nbsp;0A...13A&amp;nbsp;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eMC0vuxPGA62B3FA_7C9-6">
+          <mxGeometry x="0.1695" relative="1" as="geometry">
+            <mxPoint x="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMC0vuxPGA62B3FA_7C9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="330" as="sourcePoint" />
+            <mxPoint x="380" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMC0vuxPGA62B3FA_7C9-9" value="&amp;nbsp;Status&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eMC0vuxPGA62B3FA_7C9-8">
+          <mxGeometry x="0.1695" relative="1" as="geometry">
+            <mxPoint x="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMC0vuxPGA62B3FA_7C9-10" value="HTTP" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#00994D;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="290" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eMC0vuxPGA62B3FA_7C9-13" value="" style="endArrow=none;html=1;rounded=0;endFill=0;strokeWidth=3;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="eMC0vuxPGA62B3FA_7C9-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="540" as="sourcePoint" />
+            <mxPoint x="330" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMC0vuxPGA62B3FA_7C9-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.002;exitY=0.197;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" edge="1" parent="1" source="eMC0vuxPGA62B3FA_7C9-4" target="eMC0vuxPGA62B3FA_7C9-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="450" as="sourcePoint" />
+            <mxPoint x="100" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="496" />
+              <mxPoint x="300" y="430" />
+              <mxPoint x="435" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMC0vuxPGA62B3FA_7C9-15" value="12V PWM" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#004C99;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="330" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eMC0vuxPGA62B3FA_7C9-16" value="" style="endArrow=none;html=1;rounded=0;endFill=0;strokeWidth=3;fillColor=#f8cecc;strokeColor=#b85450;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="eMC0vuxPGA62B3FA_7C9-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="540" as="sourcePoint" />
+            <mxPoint x="160" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMC0vuxPGA62B3FA_7C9-2" value="Shelly Pro 1PM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="500" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eMC0vuxPGA62B3FA_7C9-17" value="230V" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#CC0000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="110" y="505" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eMC0vuxPGA62B3FA_7C9-18" value="&lt;div&gt;Regelung&lt;/div&gt;&lt;div&gt;Pufferspeicher&lt;br&gt;Heizung&lt;/div&gt;&lt;div&gt;(UVR)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="220" width="100" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="eMC0vuxPGA62B3FA_7C9-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="eMC0vuxPGA62B3FA_7C9-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="299.71" as="sourcePoint" />
+            <mxPoint x="560" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMC0vuxPGA62B3FA_7C9-22" value="&amp;nbsp;Temperatur&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eMC0vuxPGA62B3FA_7C9-19">
+          <mxGeometry x="-0.0228" y="-1" relative="1" as="geometry">
+            <mxPoint x="6" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMC0vuxPGA62B3FA_7C9-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" edge="1" parent="1" target="eMC0vuxPGA62B3FA_7C9-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="225" y="380" as="sourcePoint" />
+            <mxPoint x="610" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMC0vuxPGA62B3FA_7C9-26" value="Energie&lt;div&gt;Leistung&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eMC0vuxPGA62B3FA_7C9-23">
+          <mxGeometry x="0.0655" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

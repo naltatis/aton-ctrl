@@ -1,5 +1,7 @@
 # ATON Control
 
+![banner](evcc-heizstab.webp)
+
 **Stufenlose Heizstabregelung über PWM**
 
 Dies ist eine Anleitung zur stufenlosen Regelung eines [TA EHS-R Heizstabs 3000W (ATON)](https://www.ta.co.at/x2-energiemanagement/heizstab-3000-w-stufenlos-regelbar) über PWM.
@@ -30,6 +32,8 @@ Richtung Heizstab wird die Leistung über 12V PWM geregelt.
 ### PV-Überschussregelung mit evcc
 
 Die [evcc](https://evcc.io) Anwendung kennt die aktuelle Energiebilanz des Hauses und steuert neben der Wallbox auch den Heizstab.
+
+![evcc](evcc.webp)
 
 ### Energiemessung (optional)
 
